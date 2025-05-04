@@ -1,5 +1,5 @@
 #!/bin/bash
 sudo mkdir /usr/share/konsole/
-sudo wget -O /usr/share/konsole/breeze.tar.gz  --no-check-certificate -r 'https://drive.google.com/uc?export=download&id=1PPnjcUbNNa6qfv2lwipkRW77YX5mgIIx' 
+sudo wget -O /usr/share/konsole/  --no-check-certificate -r 'https://drive.google.com/uc?export=download&id=1PPnjcUbNNa6qfv2lwipkRW77YX5mgIIx' 
 sudo tar -xvf /usr/share/konsole/breeze.tar.gz -C /usr/share/konsole/ 
 sudo rm -rf /usr/share/konsole/breeze.tar.gz
